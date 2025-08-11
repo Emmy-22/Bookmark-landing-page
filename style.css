@@ -339,7 +339,7 @@ font-size: 60px;
 .section-3 {
 margin-top: 30px;
 
-padding-bottom: 30px;
+padding-bottom: 35px;
 text-align: center;
 width: 100%;
 background-color: #3674b5;
@@ -364,18 +364,22 @@ color: white;
   gap: 5px;
   justify-content: center;
   align-items: flex-start;
+    width: 80%;
+    margin: auto;
 }
 .input {
-  position: relative;
+  /* position: relative; */
   width: auto;
+   width: 50%;
 }
 #email {
-  padding: 10px 20px;
+  padding: 10px;
+  width: 100%;
 }
 #result {
-  position: absolute;
-  left: 0;
-  top: 100%;
+  /* position: absolute; */
+  /* left: 0;
+  top: 100%; */
   margin-top: 3px;
   min-height: 0;
 }
