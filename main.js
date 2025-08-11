@@ -27,11 +27,7 @@ question.parentElement.classList.toggle("active");
   });
 });
 
-
-
-
  const result = document.getElementById("result");
-
 function contact() {
   let email = document.getElementById("email");
   let userEmail = email.value;
